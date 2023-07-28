@@ -49,6 +49,7 @@ func (cl *cueLang) Kinds() map[string]rule.KindInfo {
 			MergeableAttrs: map[string]bool{
 				"escape":        true,
 				"output_format": false,
+				"expression":	 false,
 				"src":           true,
 			},
 			ResolveAttrs: map[string]bool{"deps": true},
